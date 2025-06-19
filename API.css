@@ -1,0 +1,35 @@
+@import url(style.css);
+
+nav {
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+select {
+  background-color: black;
+  color: var(--font-color);
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.results {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.results img {
+  width: 150px;
+  height: auto;
+  transform: rotate(+10deg);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.results img:hover {
+  transform: rotate(+2deg);
+}
