@@ -1,0 +1,46 @@
+@import url(style.css);
+
+/* FORM */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 57px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 300px;
+}
+
+.firstname,
+.lastname,
+.email,
+.password,
+.confirm-password {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 5px;
+  color: white;
+}
+
+form button {
+  background-color: var(--background-color);
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  color: var(--font-color);
+}
+
+/* Kontrola formuláře */
+.error {
+  border: 1px solid red;
+}
+
+.success {
+  border: 1px solid green;
+}
